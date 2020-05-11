@@ -1,3 +1,12 @@
-h1 {
-  color: blue;
+.header-main {
+  height: 100vh;
+  width: 100ww;
+  background-image: url("/images/landingpage_background.jpg");
+  background-size: contain;
+}
+.header-menu div {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
 }

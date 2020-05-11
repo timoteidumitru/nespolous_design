@@ -1,10 +1,11 @@
 import React from "react";
 import "./landing.scss";
+import Header from "./Header";
 
 export default function LandingPage() {
   return (
     <div>
-      <h1>Hello from landing page</h1>
+      <Header />
     </div>
   );
 }
