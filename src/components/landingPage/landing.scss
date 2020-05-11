@@ -1,8 +1,10 @@
-.header-main {
+.main-landing {
   height: 100vh;
   width: 100ww;
   background-image: url("/images/landingpage_background.jpg");
   background-size: contain;
+}
+.header-main {
   display: flex;
   justify-content: space-between;
   padding: 1em 3em;
@@ -24,4 +26,14 @@
 .header-brand {
   display: inline-table;
   cursor: default;
+}
+
+.main-intro {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-top: 40vh;
 }
