@@ -3,10 +3,25 @@
   width: 100ww;
   background-image: url("/images/landingpage_background.jpg");
   background-size: contain;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 3em;
+  color: white;
 }
+
+.header-menu {
+  cursor: pointer;
+  display: inline-table;
+}
+
 .header-menu div {
   width: 35px;
   height: 5px;
-  background-color: black;
+  background-color: white;
   margin: 6px 0;
+}
+
+.header-brand {
+  display: inline-table;
+  cursor: default;
 }
