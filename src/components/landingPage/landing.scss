@@ -3,11 +3,13 @@
   width: 100ww;
   background-image: url("/images/landingpage_background.jpg");
   background-size: contain;
+  cursor: default;
+  user-select: none;
 }
 .header-main {
   display: flex;
   justify-content: space-between;
-  padding: 1em 3em;
+  padding: 1.6em 4em;
   color: white;
 }
 
@@ -33,7 +35,21 @@
   margin: auto;
   text-align: center;
   color: white;
-  font-size: 2em;
+  // font-size: 2em;
   text-transform: uppercase;
-  margin-top: 40vh;
+  margin-top: 25vh;
+}
+
+.pre-intro-text {
+  padding: 2em;
+}
+
+.intro-text > h3 {
+  font-size: 4em;
+}
+
+.pre-intro-text h5 {
+  font-weight: 400;
+  letter-spacing: 0.5em;
+  font-size: 1.1em;
 }

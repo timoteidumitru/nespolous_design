@@ -9,7 +9,7 @@ export default function Intro() {
       </div>
       <div className="intro-text">
         <h3>
-          A L'aveugle on ne va <br />
+          A L'aveugle, on ne va <br />
           nul part. faites <br />
           parler vos marques
         </h3>
